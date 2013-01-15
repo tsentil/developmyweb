@@ -1,0 +1,124 @@
+/* 
+	* Default styles 
+*/
+
+body{
+	background-color:/*#f4f6f6*/;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:100%;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.clear{
+	clear:both;
+}
+
+#siteWrapper {
+	padding:100px 0px 0px 0px;
+	width:950px;
+	margin:auto;
+}
+
+#siteWrapper #header h1 {
+	font-weight:normal;
+	color:#000033;
+	text-align:center;
+	color:#faa11a;
+	padding:50px 0px 50px 0px;
+}
+
+#sitewrapper #header h1 .header-logo {
+	color:#000;
+	font-size:0.5em;
+}
+
+#siteWrapper #header h1 {
+background:#000;
+animation:myfirst 5s;
+-moz-animation:myfirst 5s; /* Firefox */
+-webkit-animation:myfirst 5s; /* Safari and Chrome */
+}
+
+@keyframes myfirst
+{
+0%   {background:#000033;}
+100% {background:#fff;}
+}
+
+@-moz-keyframes myfirst /* Firefox */
+{
+0%   {background:#000033;}
+100% {background:#fff;}
+}
+
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{
+0%   {background:#fff;}
+100% {background:#000;}
+}
+
+	/*
+		* sidebar1
+	*/
+
+#sidebar1 {
+	padding:101px 0px 0px 0px;
+	float:left;
+	width:160px;
+	background-color:#f4f6f6;
+}
+
+#sidebar1 #menu1 ul li {
+	list-style:none;
+	margin:0px 0px 0px 20px;
+}
+
+/*
+	* sidebar2	
+*/
+
+#sidebar2{
+
+	width:160px;
+	float:left;
+	background-color:#fff;
+}
+
+#sidebar2 h2 {
+	text-align:center;
+	font-weight:normal;
+	font-size:1.1em;
+}
+
+	/*
+		* main
+	*/
+
+#main {
+	background-color:#fff;
+	padding: 20px 20px 0px 0px;
+}
+
+#main .content {
+	text-align:justify;
+	width:510px;
+	float:left;
+	padding:10px 50px 10px 50px;
+}
+
+#main .content h1 {
+	line-height:1.9em;
+}
+
+#main .content p {
+	font-size:1em;
+}
+
+#footer {
+	margin:10px 10px 10px 10px;
+	color:green;
+}
